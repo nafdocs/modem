@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Location</title>
+<link href="../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA800.png" usemap="#EA800" border="0" />
+
+<MAP NAME="EA800">
+<area shape="rect" coords="785,354,943,397" href="EA910.htm" target="_self">
+<area shape="rect" coords="808,576,941,615" href="EA911.htm" target="_self">
+<area shape="rect" coords="992,576,1116,616" href="EA925.htm" target="_self">
+<area shape="rect" coords="1022,479,1112,519" href="EA906.htm" target="_self">
+<area shape="rect" coords="719,486,809,523" href="EA933.htm" target="_self">
+<area shape="rect" coords="129,401,205,591" href="EA931.htm" target="_self">
+<area shape="rect" coords="31,357,111,693" href="EA930.htm" target="_self">
+<area shape="rect" coords="23,247,405,298" href="EA958.htm" target="_self">
+<area shape="rect" coords="331,651,478,693" href="EA972.htm" target="_self">
+<area shape="rect" coords="327,354,528,429" href="./EA2/EA1079.htm" target="_self">
+<area shape="rect" coords="478,577,630,619" href="EA907.htm" target="_self">
+<area shape="rect" coords="338,482,514,523" href="EA932.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">Location : Logical diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">12/14/2010 7:55:47 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">9/6/2012 9:17:18 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Ian Bailey</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{4C362B2B-F7BA-4e84-93C9-C520B35DC343}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>

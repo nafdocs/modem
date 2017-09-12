@@ -1,0 +1,4 @@
+tocTab[tocTab.length] = new Array("0.6.2:1", "", "MODEM Thing", "EARoot/EA6/EA2/EA1077.htm", "175.png", "408", "0", "", "Logical diagram0","{DCF7F407-0664-41a4-A10B-DAE72E5C5158}");
+tocTab[tocTab.length] = new Array("0.6.2:2", "", "«IDEAS:IndividualType» ModemIndividualElement", "EARoot/EA6/EA2/EA1079.htm", "5.png", "3180", "0", "", "Class0","{23E6AC5E-A540-4d44-B127-80ACE6A961F8}");
+tocTab[tocTab.length] = new Array("0.6.2:3", "", "«IDEAS:Powertype» ModemIndividualElementType", "EARoot/EA6/EA2/EA1080.htm", "5.png", "3160", "0", "", "Class0","{7A07F7DE-CF5F-4f38-BAD7-97ED53D83827}");
+tocTab[tocTab.length] = new Array("0.6.2:4", "", "«IDEAS:Type» ModemThing", "EARoot/EA6/EA2/EA1081.htm", "5.png", "3185", "0", "", "Class0","{ECBCCFFD-73A7-408f-8459-3F8C71E8FD70}");

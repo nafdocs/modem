@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>NSV-9</title>
+<link href="../../../css/ea.css" rel="stylesheet" type="text/css" />
+<script>
+function initPage(src) {	
+	if(parent==this&&(this.location+"").indexOf('EARoot')!=-1)
+		document.location=(this.location+"").substring(0,(this.location+"").indexOf('EARoot'))+"index"+(this.location+"").substring((this.location+"").lastIndexOf('.'))+"?goto="+((this.location+"").substring((this.location+"").indexOf('EARoot')+7,(this.location+"").lastIndexOf('.')).replace(/\//g,':').replace(/EA/g,""));
+	else
+		parent.initPage(src);
+}
+
+function nameClassifier(name, separator)
+{
+  var str = name;
+  var classifierName;
+  var node = document.getElementById('name_classifier');
+  if(node != null)
+  {
+    classifierName = node.innerHTML;
+  }
+  if(classifierName != "")
+  {
+   str += separator + classifierName;
+  }
+  
+  return str;
+}
+</script>
+</head>
+<body onload="initPage(this);" class="Content">
+<div class="PageBody">
+	
+<img src="EA445.png" usemap="#EA445" border="0" />
+
+<MAP NAME="EA445">
+<area shape="rect" coords="10,10,106,47" href="EA484.htm" target="_self">
+<area shape="rect" coords="282,360,372,400" href="../../EA7/EA1388.htm" target="_self">
+<area shape="rect" coords="276,502,384,539" href="../../EA7/EA1396.htm" target="_self">
+<area shape="rect" coords="286,634,376,674" href="../../EA7/EA1231.htm" target="_self">
+<area shape="rect" coords="106,362,216,402" href="../../EA6/EA1016.htm" target="_self">
+<area shape="rect" coords="430,362,540,402" href="../../EA7/EA1235.htm" target="_self">
+<area shape="rect" coords="209,157,349,197" href="../../EA7/EA1405.htm" target="_self">
+<area shape="rect" coords="170,260,541,300" href="../../EA7/EA1387.htm" target="_self">
+<area shape="rect" coords="209,86,351,126" href="../../EA7/EA1406.htm" target="_self">
+<area shape="rect" coords="12,90,109,195" href="../../EA7/EA1247.htm" target="_self">
+<area shape="rect" coords="500,88,639,127" href="../../EA6/EA887.htm" target="_self">
+</MAP>
+
+	<div class="ObjectTitle">NSV-9 : Logical diagram</div>
+	<table border="0" cellpadding="0" cellspacing="0" class="ObjectDetails">
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Created:</td>
+			<td width="85%" class="ObjectDetailsValue">6/25/2013 3:11:14 PM</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic">Modified:</td>
+			<td width="85%" class="ObjectDetailsValue">6/25/2013 8:51:02 PM</td>
+		</tr>
+		<tr style="padding-top: 10px;">
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="proj" onclick="parent.toggleData(this.id)" />Project:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="proj00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Author:</td>
+			<td width="85%" class="ObjectDetailsValue">Ian Bailey</td>
+		</tr>
+		<tr id="proj01" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">Version:</td>
+			<td width="85%" class="ObjectDetailsValue">1.0</td>
+		</tr>
+		<tr>
+			<td width="15%" class="ObjectDetailsTopic"><img src="../../../images/plus03.gif" align="absmiddle" id="adv" onclick="parent.toggleData(this.id)" />Advanced:</td>
+			<td width="85%" class="ObjectDetailsValue"></td>			
+		</tr>
+		<tr id="adv00" style="display: none;">
+			<td width="15%" class="ObjectDetailsTopic" style="padding-left: 18px;">ID:</td>
+			<td width="85%" class="ObjectDetailsValue">{79D24B3D-AF30-4dc4-B599-2C694088839E}</td>
+		</tr>
+	</table>
+	
+</div>
+ 
+</body>
+</html>
